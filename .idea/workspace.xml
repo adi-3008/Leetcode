@@ -5,16 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dd2ca783-d4b7-4980-8aec-a9c2d7b0fa15" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Leetcode.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graph/bfs/EvaluateDivision.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graph/bfs/IsGraphBipartite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graph/bfs/ShortestBridge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graph/bfs/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graph/bfs/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,8 +59,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="IterativeDFS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="graph.bfs.IterativeDFS" />
+      <module name="Leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="graph.bfs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+      <option name="MAIN_CLASS_NAME" value="graph.bfs.Main" />
       <module name="Leetcode" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -75,6 +82,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.IterativeDFS" />
         <item itemvalue="Application.GFG" />
       </list>
     </recent_temporary>
@@ -93,13 +101,9 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>27</line>
-          <properties class="Main" method="eventualSafeNodes">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/graph/bfs/IterativeDFS.java</url>
+          <line>44</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
