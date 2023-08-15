@@ -3,10 +3,20 @@ package graph.bfs;
 import com.sun.source.tree.Tree;
 
 import java.util.*;
-//https://leetcode.com/problems/find-duplicate-subtrees/
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("hhii");
+
+        int[] nums = {-1, 3, -2, 4, -5};
+
+        int maxSum = 0;
+        int currSum = 0;
+        for (int num : nums) {
+            currSum = Math.max(num, currSum + num);
+            maxSum = Math.max(currSum, maxSum);
+        }
+        System.out.println(maxSum);
+
     }
 
 
