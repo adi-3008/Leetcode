@@ -6,7 +6,7 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-
+        System.out.println("hhii");
     }
 
     public List<TreeNode> findDuplicateSubtrees(TreeNode root) {
