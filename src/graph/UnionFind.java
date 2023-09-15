@@ -1,4 +1,4 @@
-package graph.bfs;
+package graph;
 
 public class UnionFind{
     int[] parent;

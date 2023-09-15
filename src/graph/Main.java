@@ -3,45 +3,40 @@ package graph;
 import com.sun.source.tree.Tree;
 
 import java.util.*;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println(numDistinct("babgbag", "bag"));
+        System.out.println(maxSumWithK(new long[]{-4, -2, -1, -3}, 4, 2));
     }
 
-    public static int numDistinct(String s, String t) {
-        int n = s.length();
-        int m = t.length();
-
-        int[] curr = new int[m + 1];
-        int[] prev = new int[m + 1];
-        prev[m] = 1;
-
-        for (int i = s.length() - 1; i >= 0 ; i--) {
-            for (int j = t.length() - 1; j >= 0; j--) {
-                if (s.charAt(i) == t.charAt(j)) curr[j] = prev[j];
-                curr[j] += prev[j];
+    public static long maxSumWithK(long nums[], long n, long k) {
+        long sum = Integer.MIN_VALUE;
+        long[] max = new long[(int)n];
+        long[] min = new long[(int)n];
+        long[] prefix = new long[(int)n];
+        prefix[0] = nums[0];
+        max[0] = nums[0];
+        min[0] = nums[0];
+        for (int i = 1; i < prefix.length; i++) {
+            prefix[i] = nums[i] + prefix[i - 1];
+            max[i] = Math.max(max[i - 1], prefix[i]);
+            min[i] = Math.min(min[i - 1], prefix[i]);
+            if (i - k >= 0){
+                sum = Math.max(sum, prefix[i] >= 0 ? prefix[i] - min[i - (int)k] : prefix[i] - max[i - (int)k]);
             }
-            prev = curr;
         }
-        return curr[0];
-    }
-
-    static int helper(String s, String t, int i, int j){
-        if(j == t.length())
-            return 1;
-
-        if(i == s.length())
-            return 0;
-
-        int count = 0;
-
-        if(s.charAt(i) == t.charAt(j)){
-            count = helper(s, t, i + 1, j + 1);
+        prefix[(int)n - 1] = nums[(int)n - 1];
+        max[(int)n - 1] = nums[(int)n - 1];
+        min[(int)n - 1] = nums[(int)n - 1];
+        for (int i = (int)n - 2; i >= 0; i--) {
+            prefix[i] = nums[i] + prefix[i + 1];
+            max[i] = Math.max(max[i + 1], prefix[i]);
+            min[i] = Math.min(min[i + 1], prefix[i]);
+            if (i + k < (int)n){
+                sum = Math.max(sum, prefix[i] >= 0 ? prefix[i] - min[i + (int)k] : prefix[i] - max[i + (int)k]);
+            }
         }
-
-        count += helper(s, t, i + 1, j);
-
-        return count;
+        return sum;
     }
 
 

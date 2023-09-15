@@ -1,6 +1,4 @@
-package graph.bfs;
-
-import org.w3c.dom.ls.LSOutput;
+package graph;
 
 import java.util.ArrayList;
 import java.util.Arrays;
