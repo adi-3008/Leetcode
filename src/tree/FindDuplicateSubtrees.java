@@ -1,6 +1,4 @@
-package stack;
-
-import graph.bfs.TreeNode;
+package tree;
 
 import java.util.HashMap;
 import java.util.LinkedList;

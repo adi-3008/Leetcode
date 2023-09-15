@@ -1,51 +1,19 @@
-package graph.bfs;//{ Driver Code Starts
-// Initial Template for Java
+package graph;
 
 import java.util.*;
-import java.io.*;
-import java.lang.*;
 
-class GFG {
-    public static void main(String args[]) throws IOException {
-        BufferedReader br =
-            new BufferedReader(new InputStreamReader(System.in));
+//https://practice.geeksforgeeks.org/contest/the-coding-cup-2-sanjivani-college-of-engineering/problems/
 
-        // taking testcases
-        int t = Integer.parseInt(br.readLine());
-        for (int i = 0; i < t; i++) {
-            String str = br.readLine();
-            String[] starr = str.split(" ");
+public class NavigateIslandCountry {
 
-            // input n and d
-            int n = Integer.parseInt(starr[0]);
-            int m = Integer.parseInt(starr[1]);
-            int x = Integer.parseInt(starr[2]);
-            int[] A = new int[n];
-            String str1 = br.readLine();
-            String[] starr1 = str1.split(" ");
-
-            // inserting elements in the array
-            for (int j = 0; j < n; j++) {
-                A[j] = Integer.parseInt(starr1[j]);
-            }
-            int B[][] = new int[m][2];
-            for (int j = 0; j < m; j++) {
-                str1 = br.readLine();
-                starr1 = str1.split(" ");
-                B[j][0] = Integer.parseInt(starr1[0]);
-                B[j][1] = Integer.parseInt(starr1[1]);
-            }
-            long res = Solution.minimumCost(n, m, x, A, B);
-            System.out.println(res);
-        }
+    public static void main(String[] args) {
+        System.out.println(minimumCost(3, 3, 5, new int[]{1, 2, 4}, new int[][]{
+                {1, 2},
+                {1, 2},
+                {1, 3}
+        }));
     }
-}
-// } Driver Code Ends
 
-
-// User function Template for Java
-
-class Solution {
     static long minimumCost(int n, int m, int x, int A[], int B[][]) {
         // add your code here
 
@@ -82,8 +50,6 @@ class Solution {
                     pq.add(new Pair<>(nei.first, minPath[nei.first - 1]));
                 }
             }
-
-            // visited.add(currNode);
         }
 
         return ans;
@@ -99,8 +65,4 @@ class Solution {
             this.second = second;
         }
     }
-
-
-    
-    
 }
