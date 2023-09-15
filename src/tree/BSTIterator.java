@@ -4,17 +4,17 @@ package tree;
 import java.util.Stack;
 
 class BSTIterator{
-    Stack<Node> stack;
+    Stack<TreeNode> stack;
     boolean isReverse;
 
-    BSTIterator(Node root, boolean isReverse){
+    BSTIterator(TreeNode root, boolean isReverse){
         stack = new Stack<>();
         this.isReverse = isReverse;
         pushAll(root);
     }
 
     int next(){
-        Node next = stack.pop();
+        TreeNode next = stack.pop();
         if(isReverse)
             pushAll(next.left);
         else
@@ -26,7 +26,7 @@ class BSTIterator{
         return !stack.isEmpty();
     }
 
-    void pushAll(Node root){
+    void pushAll(TreeNode root){
         while(root != null){
             stack.push(root);
             root = isReverse ? root.right : root.left;

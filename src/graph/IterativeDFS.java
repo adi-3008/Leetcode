@@ -1,11 +1,7 @@
-package graph.bfs;
+package graph;
 
-
-import com.sun.source.tree.Tree;
-import graph.bfs.TreeNode;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Stack;
 
 public class IterativeDFS {
@@ -63,4 +59,3 @@ public class IterativeDFS {
         }
     }
 }
-

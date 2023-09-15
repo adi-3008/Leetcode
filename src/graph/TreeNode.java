@@ -1,8 +1,8 @@
-package graph.bfs;
+package graph;
 
 public class TreeNode {
-    TreeNode left;
-    TreeNode right;
+    public TreeNode left;
+    public TreeNode right;
     int val;
 
     public TreeNode(int data) {

@@ -1,4 +1,4 @@
-package arr;
+package hashmap;
 
 import java.util.*;
 

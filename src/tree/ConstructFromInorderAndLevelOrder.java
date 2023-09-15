@@ -7,12 +7,12 @@ import java.util.Set;
 public class ConstructFromInorderAndLevelOrder {
 
     public static void main(String[] args) {
-        Node n1 = new Node(10);
-        Node n2 = new Node(5);
-        Node n3 = new Node(3);
-        Node n4 = new Node(30);
-        Node n5 = new Node(11);
-        Node n6 = new Node(4);
+        TreeNode n1 = new TreeNode(10);
+        TreeNode n2 = new TreeNode(5);
+        TreeNode n3 = new TreeNode(3);
+        TreeNode n4 = new TreeNode(30);
+        TreeNode n5 = new TreeNode(11);
+        TreeNode n6 = new TreeNode(4);
 
         n1.left = n2;
         n1.right = n3;
@@ -24,7 +24,7 @@ public class ConstructFromInorderAndLevelOrder {
 
 //        Arrays.cop
 
-        Node ans = build(new int[]{30, 5, 11, 10, 3, 4}, new int[]{10, 5, 3, 30, 11, 4}, 0, 5);
+        TreeNode ans = build(new int[]{30, 5, 11, 10, 3, 4}, new int[]{10, 5, 3, 30, 11, 4}, 0, 5);
     }
 
 //            10(0)
@@ -36,12 +36,12 @@ public class ConstructFromInorderAndLevelOrder {
 
     //  10, 5, 3, 30, 11, 4   levelOrder
 
-    static Node build(int[] indOrder, int[] levelOrder, int sInorder, int eInorder){
+    static TreeNode build(int[] indOrder, int[] levelOrder, int sInorder, int eInorder){
 
         if (sInorder > eInorder)
             return null;
 
-        Node root = new Node(levelOrder[0]);
+        TreeNode root = new TreeNode(levelOrder[0]);
         int rIndex = find(indOrder, root.val, sInorder, eInorder);
 
         Set<Integer> set = new HashSet<>();
