@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dd2ca783-d4b7-4980-8aec-a9c2d7b0fa15" name="Changes" comment="">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/src/dp/CanPartition.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/dp/CanPartitionKSubsets.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/dp/CombinationSum4.java" afterDir="false" />
@@ -51,6 +52,12 @@
       <change beforePath="$PROJECT_DIR$/src/tree/BSTIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/BSTIterator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tree/ConstructFromInorderAndLevelOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/ConstructFromInorderAndLevelOrder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tree/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/TreeNode.java" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graph/bfs/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graph/bfs/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graph/bfs/NavigateIslandCountry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graph/bfs/NavigateIslandCountry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stack/FindDuplicateSubtrees.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stack/FindDuplicateSubtrees.java" afterDir="false" />
+>>>>>>> 75d3d1c208c725a5914ebf97c7729148eebc0bcc
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,9 +104,15 @@
       <recent name="tree" />
     </key>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="Application.TreeToString">
     <configuration name="CountOrders" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="temp.CountOrders" />
+=======
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="graph.bfs.Main" />
+>>>>>>> 75d3d1c208c725a5914ebf97c7729148eebc0bcc
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
@@ -165,11 +178,19 @@
     </configuration>
     <recent_temporary>
       <list>
+<<<<<<< HEAD
         <item itemvalue="Application.TreeToString" />
         <item itemvalue="Application.Temp" />
         <item itemvalue="Application.ZeroOneKnapSack" />
         <item itemvalue="Application.MinimumTime" />
         <item itemvalue="Application.CountOrders" />
+=======
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.minimumDeleteSum" />
+        <item itemvalue="Application.StrangerPrinter" />
+        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Main (1)" />
+>>>>>>> 75d3d1c208c725a5914ebf97c7729148eebc0bcc
       </list>
     </recent_temporary>
   </component>
