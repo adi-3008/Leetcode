@@ -5,52 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dd2ca783-d4b7-4980-8aec-a9c2d7b0fa15" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/dp/CanPartition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dp/CanPartitionKSubsets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dp/CombinationSum4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dp/ConstrainedSubsetSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dp/FindLongestChain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dp/FindMotherVertex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dp/InterLeavingString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graph/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graph/MaxRankOfCities.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graph/MinimumMultiplications.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graph/MinimumTime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graph/MotherVertex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graph/Pair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graph/SortAccordingToDependency.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graph/ZeroOneKnapSack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/greedy/MinimumReplacement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/heap/MaxScoreOfSubsequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/linkedlist/LinkedListReverse2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/linkedlist/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/linkedlist/SplitListToParts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/prefixSum/MinimumPenaltyForShop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/slidingwindow/CountOfSubstrings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/slidingwindow/MaximumRobots.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/slidingwindow/SlidingWindowMaximum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/slidingwindow/SubArraysWithKDistinctElements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/string/ReorganizeString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/string/RepeatedSubStringPattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/temp/CountOrders.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/temp/Temp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/IsIsomorphicTrees.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/TreeToString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/NextPermutation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binarysearch/MaxNumberOfAlloys.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dp/NumberOfMusicPlaylist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dp/PerfectSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dp/ShortestPathLength.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dp/TargetSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arr/CalculateBeauty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hashmap/CalculateBeauty.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/graph/bfs/EvaluateDivision.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graph/EvaluateDivision.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/graph/bfs/GFG.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graph/NavigateIslandCountry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/graph/bfs/IsGraphBipartite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graph/IsGraphBipartite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/graph/bfs/IterativeDFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graph/IterativeDFS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/graph/bfs/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/graph/bfs/NavigateIslandCountry.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/graph/bfs/ShortestBridge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graph/ShortestBridge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/graph/bfs/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graph/TreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stack/FindDuplicateSubtrees.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/FindDuplicateSubtrees.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tree/BSTIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/BSTIterator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tree/ConstructFromInorderAndLevelOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/ConstructFromInorderAndLevelOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tree/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Temp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Temp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,10 +49,10 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;last_opened_file_path&quot;: &quot;D:/GPWebBackend&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.16184351&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.28354725&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.language&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -97,13 +60,13 @@
       <recent name="tree" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TreeToString">
-    <configuration name="CountOrders" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="temp.CountOrders" />
+  <component name="RunManager" selected="Application.NextPermutation">
+    <configuration name="MaxNumberOfAlloys" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="binarysearch.MaxNumberOfAlloys" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="temp.*" />
+          <option name="PATTERN" value="binarysearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,12 +74,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinimumTime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="graph.MinimumTime" />
+    <configuration name="NextPermutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.NextPermutation" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="graph.*" />
+          <option name="PATTERN" value="array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Temp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="temp.Temp" />
+    <configuration name="NumberOfMusicPlaylist" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dp.NumberOfMusicPlaylist" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="temp.*" />
+          <option name="PATTERN" value="dp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TreeToString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tree.TreeToString" />
+    <configuration name="ShortestPathLength" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dp.ShortestPathLength" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tree.*" />
+          <option name="PATTERN" value="dp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ZeroOneKnapSack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="graph.ZeroOneKnapSack" />
+    <configuration name="TargetSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dp.TargetSum" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="graph.*" />
+          <option name="PATTERN" value="dp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -165,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TreeToString" />
-        <item itemvalue="Application.Temp" />
-        <item itemvalue="Application.ZeroOneKnapSack" />
-        <item itemvalue="Application.MinimumTime" />
-        <item itemvalue="Application.CountOrders" />
+        <item itemvalue="Application.NextPermutation" />
+        <item itemvalue="Application.MaxNumberOfAlloys" />
+        <item itemvalue="Application.NumberOfMusicPlaylist" />
+        <item itemvalue="Application.ShortestPathLength" />
+        <item itemvalue="Application.TargetSum" />
       </list>
     </recent_temporary>
   </component>
@@ -244,11 +207,31 @@
           </properties>
           <option name="timeStamp" value="21" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/dp/NumberOfMusicPlaylist.java</url>
+          <line>11</line>
+          <properties class="dp.NumberOfMusicPlaylist" method="numMusicPlaylists">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/array/NextPermutation.java</url>
+          <line>12</line>
+          <properties class="array.NextPermutation" method="nextPermutation">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
-        <watch expression="map[groupSizes[i]]" />
+        <watch expression="!visited[node]" />
+        <watch expression="(composition.get(i).get(j) * mid) - stock.get(j)" />
+        <watch expression="((composition.get(i).get(j) * mid) - stock.get(j)) * cost.get(j)" />
       </configuration>
     </watches-manager>
   </component>
