@@ -5,12 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dd2ca783-d4b7-4980-8aec-a9c2d7b0fa15" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/dp/MinimumEffortPath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/linkedlist/FindDuplicate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/prefixSum/MinOperations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/NextPermutation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binarysearch/MaxNumberOfAlloys.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dp/NumberOfMusicPlaylist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dp/PerfectSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dp/ShortestPathLength.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dp/TargetSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dp/CanPartition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dp/CanPartition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Temp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Temp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +33,6 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="jar://$USER_HOME$/.jdks/openjdk-19.0.2/lib/src.zip!/java.base/java/lang/String.java" root0="SKIP_INSPECTION" />
-    <setting file="jar://$USER_HOME$/.jdks/openjdk-19.0.2/lib/src.zip!/java.base/java/util/OptionalInt.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
@@ -47,10 +49,10 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;last_opened_file_path&quot;: &quot;D:/GPWebBackend&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.16184351&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.28354725&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.language&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -58,9 +60,35 @@
       <recent name="tree" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MinOperations">
-    <configuration name="CanPartition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dp.CanPartition" />
+  <component name="RunManager" selected="Application.NextPermutation">
+    <configuration name="MaxNumberOfAlloys" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="binarysearch.MaxNumberOfAlloys" />
+      <module name="Leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="binarysearch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NextPermutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.NextPermutation" />
+      <module name="Leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NumberOfMusicPlaylist" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dp.NumberOfMusicPlaylist" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
@@ -72,34 +100,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindDuplicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linkedlist.FindDuplicate" />
-      <module name="Leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="linkedlist.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MinOperations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="prefixSum.MinOperations" />
-      <module name="Leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="prefixSum.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MinimumEffortPath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dp.MinimumEffortPath" />
+    <configuration name="ShortestPathLength" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dp.ShortestPathLength" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
@@ -111,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TreeToString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tree.TreeToString" />
+    <configuration name="TargetSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dp.TargetSum" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tree.*" />
+          <option name="PATTERN" value="dp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MinOperations" />
-        <item itemvalue="Application.FindDuplicate" />
-        <item itemvalue="Application.CanPartition" />
-        <item itemvalue="Application.MinimumEffortPath" />
-        <item itemvalue="Application.TreeToString" />
+        <item itemvalue="Application.NextPermutation" />
+        <item itemvalue="Application.MaxNumberOfAlloys" />
+        <item itemvalue="Application.NumberOfMusicPlaylist" />
+        <item itemvalue="Application.ShortestPathLength" />
+        <item itemvalue="Application.TargetSum" />
       </list>
     </recent_temporary>
   </component>
@@ -206,9 +208,18 @@
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/prefixSum/MinOperations.java</url>
-          <line>13</line>
-          <properties class="prefixSum.MinOperations" method="minOperationsInSpace">
+          <url>file://$PROJECT_DIR$/src/dp/NumberOfMusicPlaylist.java</url>
+          <line>11</line>
+          <properties class="dp.NumberOfMusicPlaylist" method="numMusicPlaylists">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/array/NextPermutation.java</url>
+          <line>12</line>
+          <properties class="array.NextPermutation" method="nextPermutation">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
@@ -218,8 +229,9 @@
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
-        <watch expression="currSum" />
-        <watch expression="target" />
+        <watch expression="!visited[node]" />
+        <watch expression="(composition.get(i).get(j) * mid) - stock.get(j)" />
+        <watch expression="((composition.get(i).get(j) * mid) - stock.get(j)) * cost.get(j)" />
       </configuration>
     </watches-manager>
   </component>
