@@ -19,7 +19,7 @@ public class CanPartition {
         dp[0] = true;
 
         for(int i = nums.length - 1; i >= 0; i--){
-            for(int s = sum; s >= nums[i]; s--){
+            for(int s = sum / 2; s >= nums[i]; s--){
                 dp[s] = dp[s] || dp[s - nums[i]];
             }
         }

@@ -5,52 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dd2ca783-d4b7-4980-8aec-a9c2d7b0fa15" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/dp/CanPartition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dp/CanPartitionKSubsets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dp/CombinationSum4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dp/ConstrainedSubsetSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dp/FindLongestChain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dp/FindMotherVertex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dp/InterLeavingString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graph/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graph/MaxRankOfCities.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graph/MinimumMultiplications.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graph/MinimumTime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graph/MotherVertex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graph/Pair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graph/SortAccordingToDependency.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graph/ZeroOneKnapSack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/greedy/MinimumReplacement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/heap/MaxScoreOfSubsequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/linkedlist/LinkedListReverse2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/linkedlist/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/linkedlist/SplitListToParts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/prefixSum/MinimumPenaltyForShop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/slidingwindow/CountOfSubstrings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/slidingwindow/MaximumRobots.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/slidingwindow/SlidingWindowMaximum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/slidingwindow/SubArraysWithKDistinctElements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/string/ReorganizeString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/string/RepeatedSubStringPattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/temp/CountOrders.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/temp/Temp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/IsIsomorphicTrees.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/TreeToString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dp/MinimumEffortPath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/linkedlist/FindDuplicate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/prefixSum/MinOperations.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arr/CalculateBeauty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hashmap/CalculateBeauty.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/graph/bfs/EvaluateDivision.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graph/EvaluateDivision.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/graph/bfs/GFG.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graph/NavigateIslandCountry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/graph/bfs/IsGraphBipartite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graph/IsGraphBipartite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/graph/bfs/IterativeDFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graph/IterativeDFS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/graph/bfs/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/graph/bfs/NavigateIslandCountry.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/graph/bfs/ShortestBridge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graph/ShortestBridge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/graph/bfs/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graph/TreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stack/FindDuplicateSubtrees.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/FindDuplicateSubtrees.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tree/BSTIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/BSTIterator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tree/ConstructFromInorderAndLevelOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/ConstructFromInorderAndLevelOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tree/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dp/CanPartition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dp/CanPartition.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +30,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="jar://$USER_HOME$/.jdks/openjdk-19.0.2/lib/src.zip!/java.base/java/lang/String.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.jdks/openjdk-19.0.2/lib/src.zip!/java.base/java/util/OptionalInt.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
@@ -97,13 +58,13 @@
       <recent name="tree" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TreeToString">
-    <configuration name="CountOrders" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="temp.CountOrders" />
+  <component name="RunManager" selected="Application.MinOperations">
+    <configuration name="CanPartition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dp.CanPartition" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="temp.*" />
+          <option name="PATTERN" value="dp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,12 +72,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinimumTime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="graph.MinimumTime" />
+    <configuration name="FindDuplicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linkedlist.FindDuplicate" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="graph.*" />
+          <option name="PATTERN" value="linkedlist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,12 +85,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Temp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="temp.Temp" />
+    <configuration name="MinOperations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="prefixSum.MinOperations" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="temp.*" />
+          <option name="PATTERN" value="prefixSum.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MinimumEffortPath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dp.MinimumEffortPath" />
+      <module name="Leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,26 +124,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ZeroOneKnapSack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="graph.ZeroOneKnapSack" />
-      <module name="Leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="graph.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MinOperations" />
+        <item itemvalue="Application.FindDuplicate" />
+        <item itemvalue="Application.CanPartition" />
+        <item itemvalue="Application.MinimumEffortPath" />
         <item itemvalue="Application.TreeToString" />
-        <item itemvalue="Application.Temp" />
-        <item itemvalue="Application.ZeroOneKnapSack" />
-        <item itemvalue="Application.MinimumTime" />
-        <item itemvalue="Application.CountOrders" />
       </list>
     </recent_temporary>
   </component>
@@ -244,11 +205,21 @@
           </properties>
           <option name="timeStamp" value="21" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/prefixSum/MinOperations.java</url>
+          <line>13</line>
+          <properties class="prefixSum.MinOperations" method="minOperationsInSpace">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
-        <watch expression="map[groupSizes[i]]" />
+        <watch expression="currSum" />
+        <watch expression="target" />
       </configuration>
     </watches-manager>
   </component>
