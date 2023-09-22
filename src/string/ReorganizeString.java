@@ -1,5 +1,7 @@
 package string;
 
+import common.Pair;
+
 import java.util.Arrays;
 import java.util.PriorityQueue;
 
@@ -48,16 +50,6 @@ public class ReorganizeString {
 
         return sb.toString();
 
-    }
-
-    static class Pair<A, B> {
-        A first;
-        B second;
-
-        Pair(A first, B second) {
-            this.first = first;
-            this.second = second;
-        }
     }
 
 }

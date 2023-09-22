@@ -1,5 +1,7 @@
 package graph;
 
+import common.Pair;
+
 import java.util.*;
 
 // https://leetcode.com/problems/evaluate-division/
@@ -32,16 +34,16 @@ public class EvaluateDivision {
             for(int s = 0; s < size; s++){
 
                 Pair<String, Double> curr = q.remove();
-                visited.add(curr.e1);
+                visited.add(curr.first);
 
-                if(dest.equals(curr.e1))
-                    return curr.e2;
+                if(dest.equals(curr.first))
+                    return curr.second;
 
-                for(var pair : adjList.get(curr.e1)){
+                for(var pair : adjList.get(curr.first)){
 
-                    if(!visited.contains(pair.e1)){
-                        q.add(new Pair<>(pair.e1, pair.e2 * curr.e2));
-                        visited.add(pair.e1);
+                    if(!visited.contains(pair.first)){
+                        q.add(new Pair<>(pair.first, pair.second * curr.second));
+                        visited.add(pair.first);
                     }
                 }
 
@@ -72,16 +74,6 @@ public class EvaluateDivision {
         }
 
         return adjList;
-    }
-
-    public static class Pair<A, B>{
-        A e1;
-        B e2;
-
-        Pair(A e1, B e2){
-            this.e1 = e1;
-            this.e2 = e2;
-        }
     }
 }
 

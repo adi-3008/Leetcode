@@ -1,5 +1,8 @@
 package graph;
 
+import common.Pair;
+import string.ReorganizeString;
+
 import java.util.LinkedList;
 import java.util.Queue;
 
@@ -85,13 +88,4 @@ public class  ShortestBridge {
         return i == n || j == n || i < 0 || j < 0;
     }
 
-    public static class Pair<A, B> {
-        public A first;
-        public B second;
-        public Pair(A first, B second) {
-            this.first = first;
-            this.second = second;
-        }
-
-    }
 }

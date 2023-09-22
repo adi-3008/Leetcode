@@ -1,4 +1,4 @@
-package graph;
+package common;
 
 public class Pair<A, B>{
     public A first;

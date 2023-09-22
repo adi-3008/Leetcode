@@ -1,5 +1,7 @@
 package graph;
 
+import common.Pair;
+
 import java.util.*;
 
 //https://practice.geeksforgeeks.org/contest/the-coding-cup-2-sanjivani-college-of-engineering/problems/
