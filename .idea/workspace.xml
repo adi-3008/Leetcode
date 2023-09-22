@@ -5,17 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dd2ca783-d4b7-4980-8aec-a9c2d7b0fa15" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/bitmask/RotateBits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dp/AllPairShortestPath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dp/IsSubsequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dp/ConstrainedSubsetSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dp/ConstrainedSubsetSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/graph/EvaluateDivision.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graph/EvaluateDivision.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/graph/IterativeDFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graph/IterativeDFS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/graph/NavigateIslandCountry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graph/NavigateIslandCountry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/graph/Pair.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/Pair.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/graph/ShortestBridge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graph/ShortestBridge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/string/ReorganizeString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/ReorganizeString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/temp/Temp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/temp/Temp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/heap/MaxScoreOfSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/heap/MaxScoreOfSubsequence.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,14 +42,10 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Leetcode&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/GPWebBackend&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.16184351&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.28354725&quot;,
@@ -66,7 +57,20 @@
       <recent name="tree" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RotateBits">
+  <component name="RunManager" selected="Application.MaxScoreOfSubsequence">
+    <configuration name="AllPairShortestPath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dp.AllPairShortestPath" />
+      <module name="Leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ConstrainedSubsetSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dp.ConstrainedSubsetSum" />
       <module name="Leetcode" />
@@ -80,12 +84,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxNumberOfAlloys" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="binarysearch.MaxNumberOfAlloys" />
+    <configuration name="IsSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dp.IsSubsequence" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="binarysearch.*" />
+          <option name="PATTERN" value="dp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaxScoreOfSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="heap.MaxScoreOfSubsequence" />
+      <module name="Leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="heap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,39 +123,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumberOfMusicPlaylist" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dp.NumberOfMusicPlaylist" />
-      <module name="Leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RotateBits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bitmask.RotateBits" />
-      <module name="Leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bitmask.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.RotateBits" />
+        <item itemvalue="Application.MaxScoreOfSubsequence" />
+        <item itemvalue="Application.IsSubsequence" />
         <item itemvalue="Application.ConstrainedSubsetSum" />
+        <item itemvalue="Application.AllPairShortestPath" />
         <item itemvalue="Application.NextPermutation" />
-        <item itemvalue="Application.MaxNumberOfAlloys" />
-        <item itemvalue="Application.NumberOfMusicPlaylist" />
       </list>
     </recent_temporary>
   </component>
@@ -169,7 +160,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/graph/IterativeDFS.java</url>
-          <line>46</line>
+          <line>44</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -222,6 +213,33 @@
           </properties>
           <option name="timeStamp" value="22" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/array/NextPermutation.java</url>
+          <line>12</line>
+          <properties class="array.NextPermutation" method="nextPermutation">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/dp/IsSubsequence.java</url>
+          <line>10</line>
+          <properties class="dp.IsSubsequence" method="isSubsequence">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/heap/MaxScoreOfSubsequence.java</url>
+          <line>13</line>
+          <properties class="heap.MaxScoreOfSubsequence" method="maxScore">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
@@ -229,7 +247,6 @@
         <watch expression="!visited[node]" />
         <watch expression="(composition.get(i).get(j) * mid) - stock.get(j)" />
         <watch expression="((composition.get(i).get(j) * mid) - stock.get(j)) * cost.get(j)" />
-        <watch expression="(((16 - D) &lt;&lt; 1) - 1)" />
       </configuration>
     </watches-manager>
   </component>
