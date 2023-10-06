@@ -5,12 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dd2ca783-d4b7-4980-8aec-a9c2d7b0fa15" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/dp/AllPairShortestPath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dp/IsSubsequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/FindPeak.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/MaximumSumOfHeights.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binarysearch/MaxCombinations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bitmask/FindTheDifference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dp/ChampagneTower.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dp/LongestStringChain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dp/MaxSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dp/bitmaskdp/ShortestPathVisitingAllNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dp/canSplitArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dp/hard/MaxSizeSlicesPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graph/FindCheapestFlight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graph/MaximumSafeNessFactor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graph/hard/AllPairShortestPath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graph/hard/CountVisitedNodes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graph/hard/FindItinerary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/heap/KSmallestPair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stack/DecodeAtIndex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stack/Pattern132.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stack/RemoveDuplicateLetters.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dp/ConstrainedSubsetSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dp/ConstrainedSubsetSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/heap/MaxScoreOfSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/heap/MaxScoreOfSubsequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Temp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Temp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dp/AllPairShortestPath.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graph/CriticalAndPseudoCriticalEdges.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graph/hard/CriticalAndPseudoCriticalEdges.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graph/NavigateIslandCountry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graph/medium/NavigateIslandCountry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graph/UnionFind.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graph/UnionFind.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,13 +77,13 @@
       <recent name="tree" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MaxScoreOfSubsequence">
-    <configuration name="AllPairShortestPath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dp.AllPairShortestPath" />
+  <component name="RunManager" selected="Application.Temp">
+    <configuration name="FindItinerary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="graph.hard.FindItinerary" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dp.*" />
+          <option name="PATTERN" value="graph.hard.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -71,47 +91,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConstrainedSubsetSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dp.ConstrainedSubsetSum" />
-      <module name="Leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IsSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dp.IsSubsequence" />
-      <module name="Leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MaxScoreOfSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="heap.MaxScoreOfSubsequence" />
-      <module name="Leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="heap.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NextPermutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.NextPermutation" />
+    <configuration name="MajorityElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.MajorityElement" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
@@ -123,13 +104,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MaxSizeSlicesPizza" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dp.hard.MaxSizeSlicesPizza" />
+      <module name="Leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dp.hard.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShortestPathVisitingAllNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dp.bitmaskdp.ShortestPathVisitingAllNode" />
+      <module name="Leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dp.bitmaskdp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Temp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Temp" />
+      <module name="Leetcode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MaxScoreOfSubsequence" />
-        <item itemvalue="Application.IsSubsequence" />
-        <item itemvalue="Application.ConstrainedSubsetSum" />
-        <item itemvalue="Application.AllPairShortestPath" />
-        <item itemvalue="Application.NextPermutation" />
+        <item itemvalue="Application.Temp" />
+        <item itemvalue="Application.MaxSizeSlicesPizza" />
+        <item itemvalue="Application.MajorityElement" />
+        <item itemvalue="Application.FindItinerary" />
+        <item itemvalue="Application.ShortestPathVisitingAllNode" />
       </list>
     </recent_temporary>
   </component>
@@ -160,7 +174,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/graph/IterativeDFS.java</url>
-          <line>44</line>
+          <line>46</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -232,23 +246,52 @@
           <option name="timeStamp" value="26" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/heap/MaxScoreOfSubsequence.java</url>
-          <line>13</line>
-          <properties class="heap.MaxScoreOfSubsequence" method="maxScore">
+          <url>file://$PROJECT_DIR$/src/binarysearch/MaxCombinations.java</url>
+          <line>17</line>
+          <properties class="binarysearch.MaxCombinations" method="maxCombinations">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
-          <option name="timeStamp" value="28" />
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/graph/hard/AllPairShortestPath.java</url>
+          <line>28</line>
+          <properties class="graph.hard.AllPairShortestPath" method="findCheapestPrice">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/stack/DecodeAtIndex.java</url>
+          <line>10</line>
+          <properties class="stack.DecodeAtIndex" method="decodeAtIndex">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/dp/bitmaskdp/ShortestPathVisitingAllNode.java</url>
+          <line>20</line>
+          <properties class="dp.bitmaskdp.ShortestPathVisitingAllNode" method="shortestPathLength">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/array/MajorityElement.java</url>
+          <line>12</line>
+          <properties class="array.MajorityElement" method="majorityElement">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="61" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="!visited[node]" />
-        <watch expression="(composition.get(i).get(j) * mid) - stock.get(j)" />
-        <watch expression="((composition.get(i).get(j) * mid) - stock.get(j)) * cost.get(j)" />
-      </configuration>
-    </watches-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

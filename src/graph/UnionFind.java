@@ -1,8 +1,8 @@
 package graph;
 
 public class UnionFind{
-    int[] parent;
-    int[] rank;
+    public int[] parent;
+    public int[] rank;
 
     public UnionFind(int n){
         this.parent = new int[n];

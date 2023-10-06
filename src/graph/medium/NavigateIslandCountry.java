@@ -1,4 +1,4 @@
-package graph;
+package graph.medium;
 
 import common.Pair;
 

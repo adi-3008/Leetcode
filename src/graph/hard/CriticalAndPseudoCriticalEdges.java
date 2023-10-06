@@ -1,4 +1,6 @@
-package graph;
+package graph.hard;
+
+import graph.UnionFind;
 
 import java.util.ArrayList;
 import java.util.Arrays;
